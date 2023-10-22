@@ -10,7 +10,6 @@ string get_card_type(long card_number, int digit_count, int checkresult);
 int main(void)
 {
     // prompt for input
-    // long card_number = 4003600000000014;
     long card_number;
     printf("Enter credit card: ");
     scanf("%li", &card_number);
